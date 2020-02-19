@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://localhost:8082/" href="PrintExample.jnlp">
+ 
+     <information>
+          <title>Web Start Application</title>
+          <vendor>Michael John</vendor>
+          <homepage href="http://localhost:8082/" />
+          <description>Web Start App Testing</description>
+     </information>
+ 
+     <security>
+          <all-permissions/>
+     </security>
+ 
+     <resources>
+          <j2se version="1.7+" />
+          <jar href="PrintExample.jar" />
+     </resources>
+ 
+     <application-desc main-class="com.esc.printservice.PrintExample.jar" />
+</jnlp>
